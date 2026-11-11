@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: arduino/arduino-lint-action@v2
         with:
-          library-manager: submit   # change to "update" after the library is accepted
+          library-manager: update   # change to "update" after the library is accepted
           compliance: strict
 
   compile:
