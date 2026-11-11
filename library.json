@@ -1,0 +1,25 @@
+{
+  "name": "STPM32_UART",
+  "version": "1.0.0",
+  "description": "UART driver for the ST STPM32 single-phase energy metering IC on ESP32: RMS voltage/current, power, energy, line frequency, NVS-stored configuration, calibration and sag/swell/overcurrent protection on INT1.",
+  "keywords": ["stpm32", "stpm3x", "energy", "metering", "power", "sensor", "uart", "esp32"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafabagr/STPM32_UART.git"
+  },
+  "authors": [
+    {
+      "name": "mustafabagr",
+      "url": "https://github.com/mustafabagr",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mustafabagr/STPM32_UART",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": "STPM32_UART.h",
+  "export": {
+    "exclude": [".github"]
+  }
+}
